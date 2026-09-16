@@ -1,7 +1,7 @@
 const boardData = {
   "09_15_2026": {
     question: "How many bank robberies happened in the United States in 2023?",
-    answer: null, // TODO: fill in the actual 2023 bank robbery count
+    answer: "1,263",
     notes: {
       "cell-1-0": "There are 4,587 banks in the United States in 2023.",
       "cell-0-1": "The number of bank robberies in the United States peaked in 1992 at 9,500 robberies.",
