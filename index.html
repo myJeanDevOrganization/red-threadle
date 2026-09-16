@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Threadle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <select id="date-picker" class="date-picker"></select>
+    <h1>Red Threadle</h1>
+  </header>
+
+  <div class="board-area">
+    <div class="board">
+      <svg id="board-lines" class="board-lines"></svg>
+      <div id="cell-0-0" class="sticky-note blue cell-top-left">
+        <div id="thumb-tack-0-0" class="thumb-tack"></div>
+        <span class="note-text"></span>
+      </div>
+      <div id="cell-1-0" class="sticky-note orange cell-up">
+        <div id="thumb-tack-1-0" class="thumb-tack"></div>
+        <span class="note-text">The population of the United States in 1924 was 114,109,000.</span>
+      </div>
+      <div id="cell-2-0" class="sticky-note blue cell-top-right">
+        <div id="thumb-tack-2-0" class="thumb-tack"></div>
+        <span class="note-text"></span>
+      </div>
+      <div id="cell-0-1" class="sticky-note orange cell-left">
+        <div id="thumb-tack-0-1" class="thumb-tack"></div>
+        <span class="note-text">There was 1 registered motor vehicle for every 7.3 people.</span>
+      </div>
+      <div id="cell-1-1" class="sticky-note yellow cell-center">
+        <div id="thumb-tack-1-1" class="thumb-tack"></div>
+        <span class="note-text">How many deaths in 1924 were attributed to cars in the United States?</span>
+        <input type="text" inputmode="numeric" class="note-input" placeholder="Your answer">
+        <div id="note-diff" class="note-diff"></div>
+        <button type="button" class="note-submit">Submit</button>
+      </div>
+      <div id="cell-2-1" class="sticky-note orange cell-right">
+        <div id="thumb-tack-2-1" class="thumb-tack"></div>
+        <span class="note-text">There were 1,173,990 registered deaths in the United States in 1924.</span>
+      </div>
+      <div id="cell-0-2" class="sticky-note blue cell-bottom-left">
+        <div id="thumb-tack-0-2" class="thumb-tack"></div>
+        <span class="note-text"></span>
+      </div>
+      <div id="cell-1-2" class="sticky-note orange cell-down">
+        <div id="thumb-tack-1-2" class="thumb-tack"></div>
+        <span class="note-text">The Model-T, first released in 1908, was the first mass-affordable automobile.</span>
+      </div>
+      <div id="cell-2-2" class="sticky-note blue cell-bottom-right">
+        <div id="thumb-tack-2-2" class="thumb-tack"></div>
+        <span class="note-text"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
